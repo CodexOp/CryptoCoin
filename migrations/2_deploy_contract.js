@@ -1,5 +1,5 @@
 const Codex = artifacts.require('codex')
 
 module.exports = function(deployer){
- deployer.deploy(Codex);
+ deployer.deploy(Codex, 100000);
 }
